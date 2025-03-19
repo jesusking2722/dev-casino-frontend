@@ -1,0 +1,11 @@
+.custom-phone-container input {
+    background-color: transparent !important;
+}
+
+.custom-phone-container select {
+    display: none !important;
+}
+
+.custom-phone-container .PhoneInputCountry {
+    display: none !important;
+}
