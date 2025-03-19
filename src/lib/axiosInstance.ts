@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5001/api",
+  baseURL:
+    process.env.BACKEND_BASE_URL ||
+    "https://dev-casino-backend-production.up.railway.app:5001/api",
   headers: {
     "Content-Type": "application/json",
   },
